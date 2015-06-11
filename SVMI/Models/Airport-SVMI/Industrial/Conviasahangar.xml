@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	<path>conviasa.ac</path>
+
+<nasal>
+  <load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "conviasa")) scenery["conviasa"] = {};
+   if (!contains(scenery.conviasa, "hangar")) scenery.conviasa["hangar"] = [nil];
+   scenery.conviasa.hangar[0] =
+     { door :
+       [aircraft.door.new("/scenery/conviasa/hangar[0]/door[0]",20),
+        aircraft.door.new("/scenery/conviasa/hangar[0]/door[1]",30),
+	aircraft.door.new("/scenery/conviasa/hangar[0]/door[2]",20),
+        aircraft.door.new("/scenery/conviasa/hangar[0]/door[3]",30)
+       ]
+     };
+  </load>
+ </nasal>
+
+
+<!-- Animacion puertas Oeste -->
+
+ <animation>
+  <type>translate</type> 
+  <object-name>D1</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[0]/position-norm</property> 
+  <factor>-5</factor> 
+- <axis>
+  <x>0</x> 
+  <y>5</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>D2</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[0]/position-norm</property> 
+  <factor>-10</factor> 
+- <axis>
+  <x>0</x> 
+  <y>5</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>D3</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[0]/position-norm</property> 
+  <factor>-15</factor> 
+- <axis>
+  <x>0</x> 
+  <y>5</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+ <animation>
+  <type>translate</type> 
+  <object-name>D4</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[0]/position-norm</property> 
+  <factor>-20</factor> 
+- <axis>
+  <x>0</x> 
+  <y>5</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+
+- <animation>
+  <type>translate</type> 
+  <object-name>L1</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[1]/position-norm</property> 
+  <factor>5</factor> 
+- <axis>
+  <x>0</x> 
+  <y>4</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>L2</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[1]/position-norm</property> 
+  <factor>10</factor> 
+- <axis>
+  <x>0</x> 
+  <y>4</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>L3</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[1]/position-norm</property> 
+  <factor>15</factor> 
+- <axis>
+  <x>0</x> 
+  <y>4</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>L4</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[1]/position-norm</property> 
+  <factor>20</factor> 
+- <axis>
+  <x>0</x> 
+  <y>4</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+
+<!-- Animacion puertas Este -->
+
+<animation>
+  <type>translate</type> 
+  <object-name>E1</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[2]/position-norm</property> 
+  <factor>-5</factor> 
+- <axis>
+  <x>0</x> 
+  <y>5</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>E2</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[2]/position-norm</property> 
+  <factor>-10</factor> 
+- <axis>
+  <x>0</x> 
+  <y>5</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>E3</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[2]/position-norm</property> 
+  <factor>-15</factor> 
+- <axis>
+  <x>0</x> 
+  <y>5</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+ <animation>
+  <type>translate</type> 
+  <object-name>E4</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[2]/position-norm</property> 
+  <factor>-20</factor> 
+- <axis>
+  <x>0</x> 
+  <y>5</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+
+- <animation>
+  <type>translate</type> 
+  <object-name>W1</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[3]/position-norm</property> 
+  <factor>5</factor> 
+- <axis>
+  <x>0</x> 
+  <y>4</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>W2</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[3]/position-norm</property> 
+  <factor>10</factor> 
+- <axis>
+  <x>0</x> 
+  <y>4</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>W3</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[3]/position-norm</property> 
+  <factor>15</factor> 
+- <axis>
+  <x>0</x> 
+  <y>4</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+- <animation>
+  <type>translate</type> 
+  <object-name>W4</object-name> 
+  <property>/scenery/conviasa/hangar[0]/door[3]/position-norm</property> 
+  <factor>20</factor> 
+- <axis>
+  <x>0</x> 
+  <y>4</y> 
+  <z>0</z> 
+  </axis>
+  </animation>
+
+
+- <animation>
+  <type>pick</type> 
+  <object-name>Rdoor</object-name> 
+  <visible>true</visible> 
+- <action>
+  <name>click</name> 
+  <button>0</button> 
+  <repeatable>false</repeatable> 
+- <binding>
+  <command>nasal</command> 
+  <script>scenery.conviasa.hangar[0].door[0].toggle();</script> 
+  </binding>
+  </action>
+  </animation>
+- <animation>
+  <type>pick</type> 
+  <object-name>Ldoor</object-name> 
+  <visible>true</visible> 
+- <action>
+  <name>click</name> 
+  <button>0</button> 
+  <repeatable>false</repeatable> 
+- <binding>
+  <command>nasal</command> 
+  <script>scenery.conviasa.hangar[0].door[1].toggle();</script> 
+  </binding>
+  </action>
+  </animation>
+- <animation>
+  <type>pick</type> 
+  <object-name>Edoor</object-name> 
+  <visible>true</visible> 
+- <action>
+  <name>click</name> 
+  <button>0</button> 
+  <repeatable>false</repeatable> 
+- <binding>
+  <command>nasal</command> 
+  <script>scenery.conviasa.hangar[0].door[2].toggle();</script> 
+  </binding>
+  </action>
+  </animation>
+- <animation>
+  <type>pick</type> 
+  <object-name>Wdoor</object-name> 
+  <visible>true</visible> 
+- <action>
+  <name>click</name> 
+  <button>0</button> 
+  <repeatable>false</repeatable> 
+- <binding>
+  <command>nasal</command> 
+  <script>scenery.conviasa.hangar[0].door[3].toggle();</script> 
+  </binding>
+  </action>
+  </animation>
+- <!--  LOD   --> 
+- <animation>
+  <type>range</type> 
+  <min-m>0</min-m> 
+  <max-property>/sim/rendering/static-lod/bare</max-property> 
+  </animation>
+
+
+<animation> 
+    <type>textranslate</type> 
+    <object-name>CONhangar</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+    </center>
+    <axis> 
+      <x>  0 </x> 
+      <y>  1 </y> 
+      <z>  0 </z> 
+    </axis> 
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>CONhangar</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   1.0 </red>
+      <green> 1.0 </green>
+      <blue>  1.0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>CONhangar</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0.0 </red>
+      <green> 0.0 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
+
+
+</PropertyList>
