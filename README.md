@@ -13,3 +13,4 @@ v.1.0 released July 15 2015 -- Two new airports, bug-fixes in SVMI
 
 As in FlightGear itself, 0.5, 0.7, 0.9, etc are the WIP or DEV ones... I don't plan to release those...
 
+
