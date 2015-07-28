@@ -30,3 +30,8 @@ El Julio 15 2015, se anadio SVCS y SVFM, y se arreglo algunas problemas en carac
 En Julio 2015, se anadio SVFM y hubo mas arreglos - v.1.2
 
 
+:copyright: 2015 Legoboyvdlp <br>
+:copyright: 2015 IAHM-COL <br>
+:copyright: 2015 Wlbragg <br>
+License: GPL version 3 or later <br>
+See ./LICENSE
