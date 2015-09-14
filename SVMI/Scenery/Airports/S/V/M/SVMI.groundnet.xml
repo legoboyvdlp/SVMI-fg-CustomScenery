@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<groundnet>
+    <parkingList>
+        <Parking index="0" type="gate" name="Custom_Startup_Location" lat="N10 36.04428" lon="W67 0.291540" heading="0" />
+        <Parking index="1" type="gate" name="Custom_Startup_Location_2" lat="N10 35.96232" lon="W66 59.20584" heading="0" />
+		<Parking index="1" type="gate" name="Puerta-13-DLH-UAL" lat="N10 35.896666666667" lon="W67 0.24166666666667" heading="178.72" />
+    </parkingList>
+</groundnet>
