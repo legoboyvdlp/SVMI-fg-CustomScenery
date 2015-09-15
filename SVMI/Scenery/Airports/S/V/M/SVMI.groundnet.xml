@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <groundnet>
     <parkingList>
+	<!-- increase lat to go backwards, decrease to go forward. increase lon to go right, decrease to go left -->
         <Parking index="0" type="gate" name="Custom_Startup_Location" lat="N10 36.04428" lon="W67 0.291540" heading="0" />
         <Parking index="1" type="gate" name="Custom_Startup_Location_2" lat="N10 35.96232" lon="W66 59.20584" heading="0" />
-		<Parking index="1" type="gate" name="Puerta-13-DLH-UAL" lat="N10 35.896666666667" lon="W67 0.24166666666667" heading="178.72" />
+		<Parking index="2" type="gate" name="Puerta-13-DLH-UAL" lat="N10 35.8978" lon="W67 00.2409" heading="178.72" />
+		<Parking index="3" type="gate" name="Car-start-point-kombi" lat="N10 35.800" lon="W67 00.545" heading="178.72" />
     </parkingList>
 </groundnet>
