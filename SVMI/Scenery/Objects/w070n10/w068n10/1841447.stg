@@ -4,19 +4,19 @@ OBJECT_SHARED Models/Airport/marker.xml -67.021122 10.603556 47.13 180
 OBJECT_SHARED Models/Airport-SVMI/Misc/737-CON.xml -67.00017293 10.59943246 69.3751 181.9 0.0 -0.0
 OBJECT_SHARED Models/Airport-SVMI/Terminal/SVMI.xml -67.00481000 10.59758416 73.6372 91.8
 OBJECT_SHARED Models/Airport-SVMI/Torre/twrsvmi.xml -66.99737037 10.59720087 78.9994 244.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00254662 10.59796599 71.7480 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00317391 10.59808050 71.6523 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00463594 10.59803459 71.2717 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00390567 10.59805700 71.5084 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00536711 10.59801288 70.9875 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00613124 10.59812661 70.2927 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00717592 10.59795618 70.3158 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00772369 10.59793913 70.1240 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00827215 10.59792296 69.2793 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00881975 10.59790438 68.7570 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00936798 10.59788803 68.2609 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00991476 10.59787064 67.4847 180.0
-OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.01046372 10.59785324 67.0158 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00254662 10.59796599 71.7480 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00317391 10.59808050 71.6523 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00463594 10.59803459 71.2717 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00390567 10.59805700 71.5084 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00536711 10.59801288 70.9875 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00613124 10.59812661 70.2927 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00717592 10.59795618 70.3158 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00772369 10.59793913 70.1240 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00827215 10.59792296 69.2793 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00881975 10.59790438 68.7570 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00936798 10.59788803 68.2609 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.00991476 10.59787064 67.4847 180.0
+#OBJECT_SHARED Models/Airport/Jetway/jetway-movable.xml -67.01046372 10.59785324 67.0158 180.0
 
 
 OBJECT_SHARED Models/Airport-SVMI/Iluminacion/destello.xml -67.00234999 10.59767257 128.3245 0.0
