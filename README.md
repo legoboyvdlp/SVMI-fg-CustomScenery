@@ -7,6 +7,18 @@ SVCS
 SVFM
 SVMP
 ------------------------------------------------------------------
+Included Airports in apt.dat; waiting for generation
+SVMI
+SVHG
+SVFM
+SVCS
+SVMP
+SVLS
+SVEP
+SVMG
+SVIE
+SVWM
+-----------------------------------------------------------------
 History
 v.0.6 released Jan 18 2015 -- SVMI finished
 v.0.8 released Jun 11 2015 -- Add SVMI objects
