@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <jetway>
+    <model type="string">glass</model>
+    <gate type="string">13</gate>
+    <door type="int">0</door>
+    <airline type="string">FGFS</airline>
+    <latitude-deg type="double">10.59804319</latitude-deg>
+    <longitude-deg type="double">-67.00387161</longitude-deg>
+    <elevation-m type="double">-8.480236658</elevation-m>
+    <heading-deg type="double">184</heading-deg>
+    <initial-position>
+      <jetway-extension-m type="double">0.181818</jetway-extension-m>
+      <jetway-heading-deg type="double">-0.735537</jetway-heading-deg>
+      <jetway-pitch-deg type="double">0</jetway-pitch-deg>
+      <entrance-heading-deg type="double">-73.7520656</entrance-heading-deg>
+    </initial-position>
+  </jetway>
+   <jetway n="1">
+    <model type="string">glass</model>
+    <gate type="string">12</gate>
+    <door type="int">0</door>
+    <airline type="string">FGFS</airline>
+    <latitude-deg type="double">10.59812345</latitude-deg>
+    <longitude-deg type="double">-67.00314168</longitude-deg>
+    <elevation-m type="double">-6.333007812</elevation-m>
+    <heading-deg type="double">181.983472</heading-deg>
+    <initial-position>
+      <jetway-extension-m type="double">1</jetway-extension-m>
+      <jetway-heading-deg type="double">0</jetway-heading-deg>
+      <jetway-pitch-deg type="double">0</jetway-pitch-deg>
+      <entrance-heading-deg type="double">0</entrance-heading-deg>
+    </initial-position>
+  </jetway>
+   <jetway n="2">
+    <model type="string">glass</model>
+    <gate type="string">09B</gate>
+    <door type="int">0</door>
+    <airline type="string">FGFS</airline>
+    <latitude-deg type="double">10.59797854</latitude-deg>
+    <longitude-deg type="double">-67.00261069</longitude-deg>
+    <elevation-m type="double">-6.333007812</elevation-m>
+    <heading-deg type="double">181.157024</heading-deg>
+    <initial-position>
+      <jetway-extension-m type="double">6</jetway-extension-m>
+      <jetway-heading-deg type="double">-20.636364</jetway-heading-deg>
+      <jetway-pitch-deg type="double">0</jetway-pitch-deg>
+      <entrance-heading-deg type="double">-36.92562</entrance-heading-deg>
+    </initial-position>
+  </jetway>
+    <jetway n="4">
+    <model type="string">glass</model>
+    <gate type="string">14</gate>
+    <door type="int">0</door>
+    <airline type="string">FGFS</airline>
+    <latitude-deg type="double">10.59804116</latitude-deg>
+    <longitude-deg type="double">-67.00463671</longitude-deg>
+    <elevation-m type="double">-6.333007813</elevation-m>
+    <heading-deg type="double">181.355372</heading-deg>
+    <initial-position>
+      <jetway-extension-m type="double">0</jetway-extension-m>
+      <jetway-heading-deg type="double">1</jetway-heading-deg>
+      <jetway-pitch-deg type="double">-1</jetway-pitch-deg>
+      <entrance-heading-deg type="double">-38</entrance-heading-deg>
+    </initial-position>
+  </jetway>
+    <jetway n="5">
+    <model type="string">glass</model>
+    <gate type="string">15</gate>
+    <door type="int">0</door>
+    <airline type="string">FGFS</airline>
+    <latitude-deg type="double">10.59800766</latitude-deg>
+    <longitude-deg type="double">-67.00535824</longitude-deg>
+    <elevation-m type="double">-6.333984374</elevation-m>
+    <heading-deg type="double">180</heading-deg>
+    <initial-position>
+      <jetway-extension-m type="double">2</jetway-extension-m>
+      <jetway-heading-deg type="double">-23</jetway-heading-deg>
+      <jetway-pitch-deg type="double">0</jetway-pitch-deg>
+      <entrance-heading-deg type="double">0</entrance-heading-deg>
+    </initial-position>
+  </jetway>
+  <jetway n="6">
+    <model type="string">glass</model>
+    <gate type="string">16</gate>
+    <door type="int">0</door>
+    <airline type="string">FGFS</airline>
+    <latitude-deg type="double">10.59813107</latitude-deg>
+    <longitude-deg type="double">-67.00624264</longitude-deg>
+    <elevation-m type="double">-6.331054689</elevation-m>
+    <heading-deg type="double">180</heading-deg>
+    <initial-position>
+      <jetway-extension-m type="double">8</jetway-extension-m>
+      <jetway-heading-deg type="double">-35</jetway-heading-deg>
+      <jetway-pitch-deg type="double">2</jetway-pitch-deg>
+      <entrance-heading-deg type="double">0</entrance-heading-deg>
+    </initial-position>
+  </jetway>
+</PropertyList>
