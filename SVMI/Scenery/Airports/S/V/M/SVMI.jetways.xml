@@ -129,4 +129,20 @@
       <entrance-heading-deg type="double">334</entrance-heading-deg>
     </initial-position>
   </jetway>
+  <jetway n="9">
+    <model type="string">glass</model>
+    <gate type="string">19</gate>
+    <door type="int">0</door>
+    <airline type="string">None</airline>
+    <latitude-deg type="double">10.59790406</latitude-deg>
+    <longitude-deg type="double">-67.00826777</longitude-deg>
+    <elevation-m type="double">-8.472871735</elevation-m>
+    <heading-deg type="double">180</heading-deg>
+    <initial-position>
+      <jetway-extension-m type="double">6</jetway-extension-m>
+      <jetway-heading-deg type="double">-1</jetway-heading-deg>
+      <jetway-pitch-deg type="double">0</jetway-pitch-deg>
+      <entrance-heading-deg type="double">-42</entrance-heading-deg>
+    </initial-position>
+  </jetway>
 </PropertyList>
