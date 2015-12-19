@@ -6,6 +6,10 @@ SVMI
 SVCS
 SVFM
 SVMP
+SVHG
+SVLS
+SVWM
+SVEP
 ------------------------------------------------------------------
 Included Airports in apt.dat; waiting for generation
 SVMI
