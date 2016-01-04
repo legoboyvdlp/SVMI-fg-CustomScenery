@@ -1,0 +1,5 @@
+OBJECT_BASE 1841416.btg
+OBJECT SVVA.btg
+OBJECT_SHARED Models/Airport/beacon.xml -67.928322 10.151307 430.2 0.00
+OBJECT_SHARED Models/Airport/windsock_lit.xml -67.942455 10.151096 434.6 0.00
+OBJECT_SHARED Models/Airport/windsock_lit.xml -67.914345 10.148371 426.7 0.00
