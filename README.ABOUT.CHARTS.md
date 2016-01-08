@@ -10,19 +10,14 @@ SVHG
 SVLS
 SVWM
 SVEP
-------------------------------------------------------------------
-Included Airports in apt.dat; waiting for generation
-SVMI
-SVHG
-SVFM
-SVCS
-SVMP
-SVLS
-SVEP
-SVMG
-SVIE
-SVWM
-SVBL
+
+Et al
+-----------------------------------------------------------------
+CHARTS:
+
+http://www.inac.gob.ve/eBook_PagWeb/2015-02-05/html/index-en-GB.html
+Navigate to Part 3 - AD_2 - SVXX
+
 -----------------------------------------------------------------
 History
 v.0.6 released Jan 18 2015 -- SVMI finished
@@ -34,15 +29,7 @@ v.1.4 released October 05 2015 -- add working jetways, parkings, misc bugfixes.
 As in FlightGear itself, 0.5, 0.7, 0.9, etc are the WIP or DEV ones... I don't plan to release those...
 
 
-Hola!
-Esto es un escenario para aeropuertos en Venezuela!
 
-Ya tenemos en October de 2015:
-SVMI
-SVCS
-SVFM
-SVMP
-y otros vienen.
 
 El Enero 18 2015, salio SVMI por primera vez. - v.0.6
 El Junio 11 2015, se anadio modelos en SVMI. - v.0.8
