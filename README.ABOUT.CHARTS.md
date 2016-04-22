@@ -18,6 +18,8 @@ CHARTS:
 http://www.inac.gob.ve/eBook_PagWeb/2015-02-05/html/index-en-GB.html
 Navigate to Part 3 - AD_2 - SVXX
 
+https://sites.google.com/site/fsxvenezuela/ifrcharts
+
 -----------------------------------------------------------------
 History
 v.0.6 released Jan 18 2015 -- SVMI finished
