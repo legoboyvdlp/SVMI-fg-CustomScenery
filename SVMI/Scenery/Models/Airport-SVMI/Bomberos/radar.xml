@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>radar.ac</path>
+
+
+ <animation>
+  <type>range</type>
+  <object-name>radar</object-name>
+  <max-m>10000</max-m>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>torre</object-name>
+  <max-m>10000</max-m>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>radar</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>-90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>10.3</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <!-- El siguiente codigo ilumina el radar por la noche -->
+
+<animation>
+	<type>material</type> 
+	<object-name>radar</object-name>
+	<object-name>torre</object-name>
+	<object-name>base</object-name>
+	<condition>		
+	<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+	</greater-than>
+	</condition>
+	<emission>	
+		<red>0.2</red>	
+		<green>0.2</green>	
+		<blue>0.2</blue>
+	</emission>
+</animation>
+<animation>
+	<type>material</type> 
+	<object-name>radar</object-name>
+	<object-name>torre</object-name>
+	<object-name>base</object-name>
+	<condition>		
+		<less-than-equals>		
+		<property>/sim/time/sun-angle-rad</property>
+		<value>1.57</value>
+	</less-than-equals>
+	</condition>
+	<emission>	
+		<red>0</red>	
+		<green>0</green>	
+		<blue>0</blue>
+	</emission>
+</animation>
+
+
+<animation>
+   <type>textranslate</type> 
+   <object-name>base</object-name>
+   <property>/sim/time/sun-angle-rad</property>
+   <step> 1.57 </step>
+   <factor>0.318471338</factor>
+   <center>
+     <x-m>0</x-m>
+     <y-m>0</y-m>
+     <z-m>0</z-m>
+   </center>
+   <axis> 
+     <x>0</x> 
+     <y>-1</y> 
+     <z>0</z> 
+   </axis> 
+ </animation>
+
+</PropertyList>

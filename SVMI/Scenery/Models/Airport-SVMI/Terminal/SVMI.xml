@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	<path>SVMI.ac</path>
+
+
+<nasal>
+  <load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "RAMPA")) scenery["RAMPA"] = {};
+   if (!contains(scenery.RAMPA, "movil")) scenery.RAMPA["movil"] = [nil];
+   scenery.RAMPA.movil[0] =
+     { door :
+       [aircraft.door.new("/scenery/RAMPA/movil[0]/door[0]",10),
+	aircraft.door.new("/scenery/RAMPA/movil[0]/door[1]",10),
+	aircraft.door.new("/scenery/RAMPA/movil[0]/door[2]",10),
+	aircraft.door.new("/scenery/RAMPA/movil[0]/door[3]",10),
+	aircraft.door.new("/scenery/RAMPA/movil[0]/door[4]",10),
+	aircraft.door.new("/scenery/RAMPA/movil[0]/door[5]",10),
+	aircraft.door.new("/scenery/RAMPA/movil[0]/door[6]",10),
+	aircraft.door.new("/scenery/RAMPA/movil[0]/door[7]",10)
+	]};
+  </load>
+</nasal>
+
+<!-- Animacion puertas -->
+
+<animation>
+  <type>translate</type>
+  <object-name>movil1</object-name>
+  <property>/scenery/RAMPA/movil[0]/door[0]/position-norm</property>
+  <factor>5</factor>
+  <axis>
+  <x>-9</x>
+  <y>0</y>
+  <z>0</z>
+  </axis>
+</animation>
+<animation>
+  <type>translate</type>
+  <object-name>movil2</object-name>
+  <property>/scenery/RAMPA/movil[0]/door[1]/position-norm</property>
+  <factor>5</factor>
+  <axis>
+  <x>-9</x>
+  <y>0</y>
+  <z>0</z>
+  </axis>
+</animation>
+<animation>
+  <type>translate</type>
+  <object-name>movil3</object-name>
+  <property>/scenery/RAMPA/movil[0]/door[2]/position-norm</property>
+  <factor>5</factor>
+  <axis>
+  <x>-9</x>
+  <y>0</y>
+  <z>0</z>
+  </axis>
+</animation>
+<animation>
+  <type>translate</type>
+  <object-name>movil4</object-name>
+  <property>/scenery/RAMPA/movil[0]/door[3]/position-norm</property>
+  <factor>5</factor>
+  <axis>
+  <x>-9</x>
+  <y>0</y>
+  <z>0</z>
+  </axis>
+</animation>
+<animation>
+  <type>translate</type>
+  <object-name>movil5</object-name>
+  <property>/scenery/RAMPA/movil[0]/door[4]/position-norm</property>
+  <factor>5</factor>
+  <axis>
+  <x>-9</x>
+  <y>0</y>
+  <z>0</z>
+  </axis>
+</animation>
+<animation>
+  <type>translate</type>
+  <object-name>movil6</object-name>
+  <property>/scenery/RAMPA/movil[0]/door[5]/position-norm</property>
+  <factor>5</factor>
+  <axis>
+  <x>-9</x>
+  <y>0</y>
+  <z>0</z>
+  </axis>
+</animation>
+<animation>
+  <type>translate</type>
+  <object-name>movil7</object-name>
+  <property>/scenery/RAMPA/movil[0]/door[6]/position-norm</property>
+  <factor>5</factor>
+  <axis>
+  <x>-9</x>
+  <y>0</y>
+  <z>0</z>
+  </axis>
+</animation>
+<animation>
+  <type>translate</type>
+  <object-name>movil8</object-name>
+  <property>/scenery/RAMPA/movil[0]/door[7]/position-norm</property>
+  <factor>5</factor>
+  <axis>
+  <x>-9</x>
+  <y>0</y>
+  <z>0</z>
+  </axis>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>boton1</object-name>
+  <visible>true</visible>
+  <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable> 
+  <binding>
+  <command>nasal</command> 
+  <script>scenery.RAMPA.movil[0].door[0].toggle();</script>
+  </binding>
+  </action>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>boton2</object-name>
+  <visible>true</visible>
+  <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+  <command>nasal</command>
+  <script>scenery.RAMPA.movil[0].door[1].toggle();</script>
+  </binding>
+  </action>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>boton3</object-name>
+  <visible>true</visible>
+  <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+  <command>nasal</command>
+  <script>scenery.RAMPA.movil[0].door[2].toggle();</script>
+  </binding>
+  </action>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>boton4</object-name>
+  <visible>true</visible>
+  <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+  <command>nasal</command>
+  <script>scenery.RAMPA.movil[0].door[3].toggle();</script>
+  </binding>
+  </action>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>boton5</object-name>
+  <visible>true</visible>
+  <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+  <command>nasal</command>
+  <script>scenery.RAMPA.movil[0].door[4].toggle();</script>
+  </binding>
+  </action>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>boton6</object-name>
+  <visible>true</visible>
+  <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+  <command>nasal</command>
+  <script>scenery.RAMPA.movil[0].door[5].toggle();</script>
+  </binding>
+  </action>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>boton7</object-name>
+  <visible>true</visible>
+  <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+  <command>nasal</command>
+  <script>scenery.RAMPA.movil[0].door[6].toggle();</script>
+  </binding>
+  </action>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>boton8</object-name>
+  <visible>true</visible>
+  <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+  <command>nasal</command>
+  <script>scenery.RAMPA.movil[0].door[7].toggle();</script>
+  </binding>
+  </action>
+</animation>
+
+
+<!-- El siguiente codigo ilumina los edificios -->
+
+<animation>
+	<type>material</type>
+	<object-name>noche</object-name>
+	<object-name>numero</object-name>
+	<object-name>rampa</object-name>
+	<object-name>finger</object-name>
+	<object-name>cartel</object-name>
+	<object-name>luz</object-name>
+	<object-name>calle</object-name>
+	<object-name>Hotel</object-name>
+	<condition>
+	<greater-than>
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+	</greater-than>
+	</condition>
+	<emission>
+	<red>0.5</red>
+	<green>0.5</green>
+	<blue>0.3</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>noche</object-name>
+	<object-name>numero</object-name>
+	<object-name>rampa</object-name>
+	<object-name>finger</object-name>
+	<object-name>cartel</object-name>
+	<object-name>luz</object-name>
+	<object-name>calle</object-name>
+	<object-name>Hotel</object-name>
+	<condition>
+	<less-than-equals>
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+	</less-than-equals>
+	</condition>
+	<emission>
+	<red>0</red>
+	<green>0</green>
+	<blue>0</blue>
+	</emission>
+</animation>
+
+<!-- El siguiente codigo ilumina la LUZ ROJA durante la noche, y la apaga durante el dia -->
+
+<animation>
+	<type>material</type>
+	<object-name>LuzRoja</object-name>
+	<condition>
+	<greater-than>
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+	</greater-than>
+	</condition>
+	<emission>
+	<red>1</red>
+	<green>0</green>
+	<blue>0</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>LuzRoja</object-name>
+	<condition>
+	<less-than-equals>
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+	</less-than-equals>
+	</condition>
+	<emission>
+	<red>0</red>
+	<green>0</green>
+	<blue>0</blue>
+	</emission>
+</animation>
+
+<!-- Iluminacion nocturna -->
+
+<animation>
+	<type>textranslate</type>
+	<object-name>noche</object-name>
+	<object-name>rampa</object-name>
+	<object-name>finger</object-name>
+	<object-name>Hotel</object-name>
+	<property>/sim/time/sun-angle-rad</property>
+	<step> 1.57 </step>
+	<factor>0.318471338</factor>
+	<center>
+	<x-m>0</x-m>
+	<y-m>0</y-m>
+	<z-m>0</z-m>
+	</center>
+	<axis>
+	<x>0</x>
+	<y>-1</y>
+	<z>0</z>
+	</axis>
+</animation>
+
+- <!--  No solido   --> 
+
+<animation>
+	<type>noshadow</type>
+	<object-name>marca</object-name>
+</animation>
+<animation>
+	<type>range</type>
+	<object-name>marca</object-name>
+	<min-m>0</min-m>
+	<max-m>500</max-m>
+</animation>
+<animation>
+	<object-name>marca</object-name>
+	<enable-hot type="bool">false</enable-hot>
+</animation>
+
+</PropertyList>
